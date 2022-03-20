@@ -1,0 +1,6 @@
+# BMI CALCULATOR
+n_height = float(height)
+n_weight = int(weight)
+BMI = n_weight/(n_height ** 2)
+n_BMI = int(BMI)
+print("your BMI value is: " + str(n_BMI))
