@@ -1,8 +1,5 @@
 # BMI CALCULATOR
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
-n_height = float(height)
-n_weight = int(weight)
+height = float(input("enter your height in m: "))
+weight = int(input("enter your weight in kg: "))
 BMI = n_weight/(n_height ** 2)
-n_BMI = int(BMI)
-print("your bmi value is :" + str(n_BMI))
+print(f"your bmi value is : {int(BMI)}")
